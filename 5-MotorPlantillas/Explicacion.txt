@@ -1,0 +1,2 @@
+
+El motor de plantillas que prefiero utilizar se divide entre pug y handlebars ya que me resulta mas familiar al uso de HTML que es con lo que ultimamente estuve en contacto. 
