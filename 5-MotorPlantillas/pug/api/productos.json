@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatos Adidas",
+    "precio": 500,
+    "thumbnail": "../public/adidas-shoes.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pelota Nike",
+    "precio": 300,
+    "thumbnail": "../public/nike-ball.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatos Nike",
+    "precio": 750,
+    "thumbnail": "../public/nike-shoes.jpg"
+  },
+  {
+    "nombre": "PUG",
+    "precio": "0000",
+    "thumbnail": "https://images.alphacoders.com/247/thumb-1920-247333.jpg",
+    "id": 4
+  }
+]

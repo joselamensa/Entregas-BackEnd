@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatos Adidas",
+    "precio": 500,
+    "thumbnail": "../public/adidas-shoes.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pelota Nike",
+    "precio": 300,
+    "thumbnail": "../public/nike-ball.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatos Nike",
+    "precio": 750,
+    "thumbnail": "../public/nike-shoes.jpg"
+  },
+  {
+    "nombre": "EJS",
+    "precio": "15621",
+    "thumbnail": "https://pbs.twimg.com/media/FcmkcGzXgAEporz.jpg",
+    "id": 4
+  }
+]

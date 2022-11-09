@@ -1,0 +1,15 @@
+<h1 class='list'>Listado de productos</h1>
+<div class='products-container'>
+  {{#if productsExist}}
+    {{#each products}}
+      <div class='products-card'>
+        <img src='{{this.thumbnail}}' class='product-img' />
+        <p>ID: {{this.id}}</p>
+        <p>Producto: {{this.nombre}}</p>
+        <p>Precio: $ {{this.precio}}</p>
+      </div>
+    {{/each}}
+  {{/if}}
+
+</div>
+<a href='./form' class='my-button'> Ir a Formulario</a>
