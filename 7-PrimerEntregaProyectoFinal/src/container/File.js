@@ -54,7 +54,6 @@ module.exports = class File {
   update(element) {
     try {
       let one = this.elements.find((el) => el.id == element.id);
-      // console.log(one)
       let newElement = { ...one, ...element };
 
       let index = this.elements.findIndex((el, ind) => {
@@ -78,7 +77,7 @@ module.exports = class File {
 
   delete() {
     fs.truncateSync(this.name, 0, () => console.log("Borrado"));
-    return { response: "Todos lso datos han sido eliminados" };
+    return { response: "Todos los datos han sido eliminados" };
   }
 
   deleteById(id) {
