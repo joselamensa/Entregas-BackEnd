@@ -1,0 +1,7 @@
+PARA LEVANTAR EL SERVER EN MODO CLUSTER
+
+- pm2 start server.js --name="ClusterMode" --watch -i max -- -- 8082
+
+PARA LEVANTAR EL SERVER EN MODO FORK
+
+- pm2 start server.js --name="ForkMode" --watch -- -- 8082
