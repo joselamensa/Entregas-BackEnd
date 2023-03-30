@@ -1,0 +1,37 @@
+npm install --save @nestjs/mongoose mongoose
+
+
+esto va en app.module.ts:
+
+import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
+
+@Module({
+  imports: [
+    MongooseModule.forRoot('mongodb://localhost/nest'),
+  ],
+})
+export class AppModule {}
+
+
+
+esto va  user.model.ts:
+
+import * as mongoose from 'mongoose';
+
+export const UserSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  password: String,
+});
+
+export interface User extends mongoose.Document {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+}
+
+esto no se donde va:
+
+constructor(@InjectModel('User') private readonly userModel: Model<User>) {}
