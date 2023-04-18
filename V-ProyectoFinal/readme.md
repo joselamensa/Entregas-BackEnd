@@ -14,7 +14,7 @@ Añadir carpeta en una aplicación lectora de código.
 
 ```
 
-Paso 1: cd V23-ProyectoFinal
+Paso 1: cd V-ProyectoFinal
 
 ```
 
