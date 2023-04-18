@@ -6,9 +6,7 @@ Aplicación Node.js a base de capas.
 
 Utilizar comando Git Clone en la consola:
 
-git clone https://github.com/santi-iztli/eCommerce.git
-
-```
+git clone https://github.com/joselamensa/Entregas-BackEnd.git
 
 ## Utilizar App
 
@@ -43,6 +41,8 @@ Continuar al siguiente enlace: http://localhost:8080
 ```
 
 Creá tu usario y empezá a disfrutarla!!
+
+```
 
 ```
 

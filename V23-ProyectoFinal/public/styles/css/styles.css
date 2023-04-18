@@ -843,9 +843,6 @@ button {
     transform: rotate(90deg);
     transition: all ease 0.2s;
 }
-.send-icon:hover {
-    /* width: 35px; */
-}
 
 .chat-container {
     display: flex;
